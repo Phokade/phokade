@@ -32,7 +32,7 @@ function Navbar() {
 				</div>
 
 				<div className="flex gap-5 my-auto text-[#214842] font-semibold">
-					<Button content={"Contact"} style={{ width: "100px" }} />
+					<Button content={"Contact"} />
 					<Button content={<AiOutlineInstagram size={30} />} />
 				</div>
 			</nav>
