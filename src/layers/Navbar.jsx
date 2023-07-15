@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "/logo.png";
 import { AiOutlineInstagram } from "react-icons/ai";
+import Button from "../components/Button";
 function Navbar() {
 	const menus = [
 		{
@@ -31,10 +32,8 @@ function Navbar() {
 				</div>
 
 				<div className="flex gap-5 my-auto text-[#214842] font-semibold">
-					<button className="px-6 py-3 hover:shadow-lg duration-200 hover:shadow-yellow-300 rounded-full bg-[#E7B10A]">Contact</button>
-					<button className="px-3 py-3 rounded-full hover:shadow-lg duration-200 hover:shadow-yellow-300 bg-[#E7B10A]">
-						<AiOutlineInstagram size={25} />
-					</button>
+					<Button content={"Contact"} style={{ width: "100px" }} />
+					<Button content={<AiOutlineInstagram size={30} />} />
 				</div>
 			</nav>
 		</>
