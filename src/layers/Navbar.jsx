@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "/logo.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import Button from "../components/Button";
 function Navbar() {
+	const [top, setTop] = useState(true);
+	useEffect(() => {
+		const scrollHandler = () => {
+			setTop(window.pageYOffset <= 20);
+		};
+		window.addEventListener("scroll", scrollHandler);
+
+		// Explicit call so that the navbar gets blurred when component mounts
+		scrollHandler();
+
+		return () => {
+			window.removeEventListener("scroll", scrollHandler);
+		};
+	}, []);
 	const menus = [
 		{
 			id: 1,
@@ -19,7 +33,7 @@ function Navbar() {
 	];
 	return (
 		<>
-			<nav className="font-poppins flex justify-between items-center w-full h-32 bg-transparent fixed px-12">
+			<nav className={`font-poppins flex justify-between items-center w-full h-24 fixed px-12 ${top ? "bg-transparent" : "bg-white bg-opacity-80 backdrop-blur-md"}`}>
 				<div className="flex">
 					<img src={logo} alt="" />
 					<ul className="flex ml-20 gap-10 my-auto">

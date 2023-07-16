@@ -6,6 +6,25 @@ import h2 from "/h2-tehnik.png";
 import putrarejeki from "/putra-rejeki.png";
 
 function Companies() {
+	const companyCards = [
+		{
+			id: 1,
+			image: putrajaya,
+		},
+
+		{
+			id: 2,
+			image: ajok,
+		},
+		{
+			id: 3,
+			image: h2,
+		},
+		{
+			id: 4,
+			image: putrarejeki,
+		},
+	];
 	return (
 		<>
 			<div className="w-full h-[485px] flex justify-center items-center font-roboto">
@@ -15,10 +34,9 @@ function Companies() {
 						Partner yang telah bekerja sama dengan Kami. Pastikan perusahaan <br /> Anda adalah yang selanjutnya!
 					</p>
 					<div className="flex justify-center gap-16">
-						<CompanyCard image={putrajaya} />
-						<CompanyCard image={ajok} />
-						<CompanyCard image={h2} />
-						<CompanyCard image={putrarejeki} />
+						{companyCards.map((companyCard) => (
+							<CompanyCard image={companyCard.image} key={companyCard.id} />
+						))}
 					</div>
 				</div>
 				{/* //TODO: Buatin HR ris tolong tinggal itu */}

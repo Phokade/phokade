@@ -6,7 +6,7 @@ function Hero() {
 	return (
 		<>
 			<div className="w-full h-screen bg-gradient-to-r from-white from-50% to-[#214842] to-50% flex gap-10 justify-between items-center px-12 font-poppins">
-				<div className="content-left flex flex-col gap-10 w-[550px]">
+				<div className="content-left flex flex-col gap-10">
 					<h1 className="text-5xl text-[#214842] font-bold leading-[70px]">
 						Memudahkan <br /> proses bisnis Anda
 					</h1>
@@ -14,9 +14,9 @@ function Hero() {
 					<Button content={"Produk Kami"} />
 				</div>
 				<div>
-					<img src={hero} />
+					<img src={hero} width="1500px" />
 				</div>
-				<div className="content-right flex flex-col gap-10 w-[550px] lg:-mt-[8rem]">
+				<div className="content-right flex flex-col gap-10 lg:-mt-[5.5rem]">
 					<h1 className="text-5xl text-white font-bold leading-[70px]">
 						Phokade hadir <br /> untuk Anda
 					</h1>
