@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
-import logo from "/logo.png";
+import { useEffect, useState } from "react";
+import logo from "/public/logo.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import Button from "../components/Button";
-function Navbar() {
+
+export default function Navbar() {
 	const [top, setTop] = useState(true);
 	useEffect(() => {
 		const scrollHandler = () => {
@@ -19,27 +20,27 @@ function Navbar() {
 	}, []);
 	const menus = [
 		{
-			id: 1,
-			menu: "Tentang",
+			name: "Tentang",
+			to: "#about",
 		},
 		{
-			id: 2,
-			menu: "Layanan",
+			name: "Layanan",
+			to: "#pricing",
 		},
 		{
-			id: 3,
-			menu: "Kontak",
+			name: "Kontak",
+			to: "#contact",
 		},
 	];
 	return (
 		<>
 			<nav className={`font-poppins flex justify-between items-center w-full h-24 fixed px-12 duration-200 ${top ? "bg-transparent" : "bg-white bg-opacity-80 backdrop-blur-md"}`}>
-				<div className="flex">
+				<div className="gap-10 flex">
 					<img src={logo} alt="" />
-					<ul className="flex ml-20 gap-10 my-auto">
-						{menus.map((menu) => (
-							<li key={menu.id} className="capitalize cursor-pointer font-medium hover:border-b-2 border-yellow-400">
-								{menu.menu}
+					<ul className="flex justify-center gap-10 m-auto">
+						{menus.map((menu, id) => (
+							<li key={id} className="capitalize cursor-pointer font-medium hover:border-b-2 border-yellow-400">
+								<a href={`${menu.to}`}>{menu.name}</a>
 							</li>
 						))}
 					</ul>
@@ -47,11 +48,9 @@ function Navbar() {
 
 				<div className="flex gap-5 my-auto text-[#214842] font-semibold">
 					<Button content={"Contact"} />
-					<Button content={<AiOutlineInstagram size={30} />} />
+					<Button content={<AiOutlineInstagram size={30} />} className="px-2" />
 				</div>
 			</nav>
 		</>
 	);
 }
-
-export default Navbar;
