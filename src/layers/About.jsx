@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import about1 from "/about-1.png";
 import about2 from "/about-2.png";
 import about3 from "/about-3.png";
@@ -6,8 +6,8 @@ import about3 from "/about-3.png";
 function About() {
 	return (
 		<>
-			<div>
-				<div className="w-full h-screen justify-evenly items-center flex font-roboto">
+			<div id="about">
+				<div className="w-full justify-evenly items-center flex font-roboto mt-52">
 					<img src={about1} />
 
 					<div className="flex flex-col gap-10 w-[503px]">
@@ -19,7 +19,7 @@ function About() {
 					</div>
 				</div>
 
-				<div className="w-full h-screen justify-evenly items-center flex font-roboto">
+				<div className="w-full justify-evenly items-center flex font-roboto mt-52">
 					<div className="flex flex-col gap-10 w-[503px]">
 						<h1 className="font-medium text-4xl">Solusi yang Disesuaikan</h1>
 						<p>
@@ -31,7 +31,7 @@ function About() {
 					<img src={about2} />
 				</div>
 
-				<div className="w-full h-screen justify-evenly items-center flex font-roboto">
+				<div className="w-full justify-evenly items-center flex font-roboto mt-52">
 					<img src={about3} />
 					<div className="flex flex-col gap-10 w-[503px]">
 						<h1 className="font-medium text-4xl">Pemakaian Teknologi Terkini</h1>

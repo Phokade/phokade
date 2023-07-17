@@ -1,11 +1,11 @@
-import React from "react";
+//import React from "react";
 import CompanyCard from "../components/CompanyCard";
 import putrajaya from "/putra-jaya.png";
 import ajok from "/aj-ok.png";
 import h2 from "/h2-tehnik.png";
 import putrarejeki from "/putra-rejeki.png";
 
-function Companies() {
+export default function Companies() {
 	const companyCards = [
 		{
 			id: 1,
@@ -38,11 +38,9 @@ function Companies() {
 							<CompanyCard image={companyCard.image} key={companyCard.id} />
 						))}
 					</div>
+					<div className="border border-gray-400 mx-8"></div>
 				</div>
-				{/* //TODO: Buatin HR ris tolong tinggal itu */}
 			</div>
 		</>
 	);
 }
-
-export default Companies;
