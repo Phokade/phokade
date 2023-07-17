@@ -6,7 +6,7 @@ function PricingCard({ image, title, description, features }) {
 		<>
 			<div className="flex flex-col gap-2 justify-center items-center w-[270px] border border-black p-9 rounded-lg">
 				<img src={image} alt="" />
-				<h1 className="text-lg font-medium">{title}</h1>
+				<h1 className="text-lg font-medium capitalize">{title}</h1>
 				<p className="text-sm">{description}</p>
 				<ul className="text-gray-600">
 					{/* Mapping array of feature */}
