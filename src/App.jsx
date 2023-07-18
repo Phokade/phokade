@@ -5,6 +5,7 @@ import Hero from "./layers/Hero";
 import Navbar from "./layers/Navbar";
 import Pricing from "./layers/Pricing";
 import Gallery from "./layers/Gallery";
+import Map from "./layers/Map";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<Gallery />
 			<Pricing />
 			<Contact />
+			<Map />
 		</>
 	);
 }

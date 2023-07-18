@@ -14,7 +14,7 @@ export default function Companies() {
 					<img src={imgGallery} className="rounded-lg" />
 				</div>
 				<div className="col-span-5 row-span-1">
-					<div className="grid-cols-2 grid gap-4 h-[48.7%] mb-4">
+					<div className="grid-cols-2 grid gap-4 h-[48.5%] mb-4">
 						<img src={imgGallery} className="rounded-lg object-cover h-full" />
 						<img src={imgGallery} className="rounded-lg object-cover h-full" />
 					</div>
