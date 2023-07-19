@@ -3,6 +3,7 @@ import facebook from "/public/facebook.png";
 import instagram from "/public/instagram.png";
 import tokopedia from "/public/tokopedia.png";
 import IconOutline from "../components/IconOutline";
+import { Link } from "react-scroll";
 
 export default function Footer() {
 	const currentYear = new Date().getFullYear();
@@ -27,16 +28,18 @@ export default function Footer() {
 		<>
 			<div className="w-full mt-24 justify-center items-center font-roboto ">
 				<div className="flex justify-center items-center gap-16 font-medium">
-					<img src={logo} alt="" className=" mix-blend-multiply" />
-					<a className=" cursor-pointer" href="#about">
+					<Link activeClass="active" to="hero" className=" cursor-pointer" spy={true} smooth={true} duration={500}>
+						<img src={logo} alt="" className="mix-blend-multiply" />
+					</Link>
+					<Link activeClass="active" to="about" className=" cursor-pointer" spy={true} smooth={true} duration={500}>
 						Tentang
-					</a>
-					<a className=" cursor-pointer" href="#pricing">
-						Layanan
-					</a>
-					<a className=" cursor-pointer" href="#contact">
-						Kontak
-					</a>
+					</Link>
+					<Link activeClass="active" to="pricing" className=" cursor-pointer" spy={true} smooth={true} duration={500}>
+						Pricing
+					</Link>
+					<Link activeClass="active" to="contact" className=" cursor-pointer" spy={true} smooth={true} duration={500}>
+						Contact
+					</Link>
 				</div>
 				<div className="border border-green-500 mt-12 mx-44"></div>
 				<div className="flex justify-center items-center gap-8 mt-12">
