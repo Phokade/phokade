@@ -36,7 +36,7 @@ export default function Navbar() {
 		<>
 			<nav className={`font-poppins flex justify-between items-center w-full h-24 fixed px-12 duration-200 z-50 ${top ? "bg-transparent" : "bg-white bg-opacity-80 backdrop-blur-md"}`}>
 				<div className="gap-10 flex">
-					<img src={logo} alt="" />
+					<img src={logo} alt="" className="mix-blend-multiply" />
 					<ul className="flex justify-center gap-10 m-auto">
 						{menus.map((menu, id) => (
 							<li key={id} className="capitalize cursor-pointer font-medium hover:border-b-2 border-yellow-400">
