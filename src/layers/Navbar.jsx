@@ -34,7 +34,7 @@ export default function Navbar() {
 	];
 	return (
 		<>
-			<nav className={`font-poppins flex justify-between items-center w-full h-24 fixed px-12 duration-200 ${top ? "bg-transparent" : "bg-white bg-opacity-80 backdrop-blur-md"}`}>
+			<nav className={`font-poppins flex justify-between items-center w-full h-24 fixed px-12 duration-200 z-50 ${top ? "bg-transparent" : "bg-white bg-opacity-80 backdrop-blur-md"}`}>
 				<div className="gap-10 flex">
 					<img src={logo} alt="" />
 					<ul className="flex justify-center gap-10 m-auto">

@@ -8,20 +8,16 @@ import putrarejeki from "/putra-rejeki.png";
 export default function Companies() {
 	const companyCards = [
 		{
-			id: 1,
 			image: putrajaya,
 		},
 
 		{
-			id: 2,
 			image: ajok,
 		},
 		{
-			id: 3,
 			image: h2,
 		},
 		{
-			id: 4,
 			image: putrarejeki,
 		},
 	];
@@ -34,8 +30,8 @@ export default function Companies() {
 						Partner yang telah bekerja sama dengan Kami. Pastikan perusahaan <br /> Anda adalah yang selanjutnya!
 					</p>
 					<div className="flex justify-center gap-16">
-						{companyCards.map((companyCard) => (
-							<CompanyCard image={companyCard.image} key={companyCard.id} />
+						{companyCards.map((companyCard, id) => (
+							<CompanyCard image={companyCard.image} key={id} />
 						))}
 					</div>
 					<div className="border border-gray-400 mx-8"></div>

@@ -1,6 +1,6 @@
-import React from "react";
+//import React from "react";
 import PricingCard from "../components/PricingCard";
-import logo from "/logo.png";
+import logo from "/public/logo.png";
 
 function Pricing() {
 	const pricings = [
