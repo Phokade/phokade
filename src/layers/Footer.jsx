@@ -29,13 +29,13 @@ export default function Footer() {
 				<div className="flex justify-center items-center gap-16 font-medium">
 					<img src={logo} alt="" className=" mix-blend-multiply" />
 					<a className=" cursor-pointer" href="#about">
-						About
+						Tentang
 					</a>
-					<a className=" cursor-pointer" href="#">
-						Services
+					<a className=" cursor-pointer" href="#pricing">
+						Layanan
 					</a>
-					<a className=" cursor-pointer" href="#">
-						Contact us
+					<a className=" cursor-pointer" href="#contact">
+						Kontak
 					</a>
 				</div>
 				<div className="border border-green-500 mt-12 mx-44"></div>
