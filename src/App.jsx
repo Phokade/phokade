@@ -6,6 +6,7 @@ import Navbar from "./layers/Navbar";
 import Pricing from "./layers/Pricing";
 import Gallery from "./layers/Gallery";
 import Map from "./layers/Map";
+import Footer from "./layers/Footer";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<Pricing />
 			<Contact />
 			<Map />
+			<Footer />
 		</>
 	);
 }
