@@ -1,7 +1,7 @@
 export default function Map() {
 	return (
 		<>
-			<div className="w-full my-32 flex justify-center items-center font-roboto ">
+			<div className="w-full mb-40 flex justify-center items-center font-roboto ">
 				<div className="flex">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3947.0987931172517!2d113.67678471478214!3d-8.39194359396432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjMnMzEuMCJTIDExM8KwNDAnNDQuMyJF!5e0!3m2!1sid!2sid!4v1689720026341!5m2!1sid!2sid"

@@ -5,7 +5,7 @@ import hero from "/hero.png";
 export default function Hero() {
 	return (
 		<>
-			<div className="w-full h-screen bg-gradient-to-r from-white from-50% to-[#214842] to-50% flex gap-10 justify-between items-center px-12 font-poppins">
+			<div name="hero" className="w-full h-screen bg-gradient-to-r from-white from-50% to-[#214842] to-50% flex gap-10 justify-between items-center px-12 font-poppins">
 				<div className="content-left flex flex-col gap-10">
 					<h1 className="text-4xl text-[#214842] font-bold leading-[50px]">
 						Memudahkan <br /> proses bisnis Anda

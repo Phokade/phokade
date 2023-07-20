@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import logo from "/public/logo.png";
 import { AiOutlineInstagram } from "react-icons/ai";
 import Button from "../components/Button";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
 	const [top, setTop] = useState(true);
@@ -21,26 +22,28 @@ export default function Navbar() {
 	const menus = [
 		{
 			name: "Tentang",
-			to: "#about",
+			to: "about",
 		},
 		{
 			name: "Layanan",
-			to: "#pricing",
+			to: "pricing",
 		},
 		{
 			name: "Kontak",
-			to: "#contact",
+			to: "contact",
 		},
 	];
 	return (
 		<>
 			<nav className={`font-poppins flex justify-between items-center w-full h-24 fixed px-12 duration-200 z-50 ${top ? "bg-transparent" : "bg-white bg-opacity-80 backdrop-blur-md"}`}>
 				<div className="gap-10 flex">
-					<img src={logo} alt="" />
+					<img src={logo} alt="" className="mix-blend-multiply" />
 					<ul className="flex justify-center gap-10 m-auto">
 						{menus.map((menu, id) => (
 							<li key={id} className="capitalize cursor-pointer font-medium hover:border-b-2 border-yellow-400">
-								<a href={`${menu.to}`}>{menu.name}</a>
+								<Link activeClass="active" to={menu.to} spy={true} smooth={true} duration={500}>
+									{menu.name}
+								</Link>
 							</li>
 						))}
 					</ul>

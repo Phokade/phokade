@@ -40,7 +40,7 @@ const contacts = [
 function Contact() {
 	return (
 		<>
-			<div className="w-full h-[500px] flex justify-center items-center font-roboto text-center">
+			<div name="contact" className="w-full h-screen flex justify-center items-center font-roboto text-center">
 				<div className="flex flex-col">
 					<h1 className="font-bold text-3xl">Anda siap memulai bisnis?</h1>
 					<p className="mt-10 text-xl">

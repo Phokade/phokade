@@ -6,8 +6,8 @@ import about3 from "/about-3.png";
 function About() {
 	return (
 		<>
-			<div id="about">
-				<div className="w-full justify-evenly items-center flex font-roboto mt-52">
+			<div name="about">
+				<div className="w-full h-screen justify-evenly items-center flex font-roboto">
 					<img src={about1} />
 
 					<div className="flex flex-col gap-10 w-[503px]">
@@ -19,7 +19,7 @@ function About() {
 					</div>
 				</div>
 
-				<div className="w-full justify-evenly items-center flex font-roboto mt-52">
+				<div className="w-full justify-evenly items-center flex font-roboto">
 					<div className="flex flex-col gap-10 w-[503px]">
 						<h1 className="font-medium text-4xl">Solusi yang Disesuaikan</h1>
 						<p>

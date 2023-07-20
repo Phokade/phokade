@@ -45,7 +45,7 @@ function Pricing() {
 	];
 	return (
 		<>
-			<div className="w-full h-screen flex justify-center items-center font-roboto text-center">
+			<div name="pricing" className="w-full h-screen flex justify-center items-center font-roboto text-center">
 				<div className="flex flex-col">
 					<h1 className="font-medium text-4xl">Paket Jasa Layanan</h1>
 					<p className="mt-10 text-xl">Paket jasa untuk memudahkan proses bisnis Anda.</p>
