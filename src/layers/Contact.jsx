@@ -43,9 +43,7 @@ function Contact() {
 			<div name="contact" className="w-full h-screen flex justify-center items-center font-roboto text-center">
 				<div className="flex flex-col px-10">
 					<h1 className="font-bold text-2xl md:text-3xl">Anda siap memulai bisnis?</h1>
-					<p className="mt-10 text-sm md:text-xl">
-						“Hidup bukan tentang menemukan dirimu sendiri. <br /> Hidup adalah tentang menciptakan diri <br /> Anda sendiri.”
-					</p>
+					<p className="mt-10 text-sm md:text-xl">“Hidup bukan tentang menemukan dirimu sendiri. Hidup adalah tentang menciptakan diri Anda sendiri.”</p>
 					<p className="mt-10 text-xl">― George Bernard Shaw ―</p>
 					<div className="flex flex-col lg:flex-row gap-10 mt-10 mb-20 lg:mb-0">
 						{contacts.map((contact) => (
