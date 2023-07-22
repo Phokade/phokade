@@ -24,7 +24,7 @@ export default function Hero() {
 					<p className="text-justify text-base">
 						Sebuah mesin pada era industri saat ini menjadi kebutuhan primer. Kami menyediakan jasa untuk merencanakan mesin agar mempermudah bisnis Anda. Dapatkan rancangan mesin yang bisnis anda butuhkan!
 					</p>
-					<Button content={"Produk Kami"} />
+					<Button content={"Produk Kami"} className="px-4 py-3" />
 				</div>
 				<div>
 					<img src={hero} width="1300px" />

@@ -14,6 +14,10 @@ function Pricing() {
 					id: 1,
 					name: "Feature 1",
 				},
+				{
+					id: 2,
+					name: "Feature 1",
+				},
 			],
 		},
 

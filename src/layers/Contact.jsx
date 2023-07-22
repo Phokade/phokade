@@ -12,7 +12,7 @@ const contacts = [
 		),
 		title: "Whatsapp",
 		data: "(+62) 813 5860 9474",
-		href: "wa.me/6281358609474",
+		href: "https://wa.me/6281358609474",
 	},
 	{
 		id: 2,

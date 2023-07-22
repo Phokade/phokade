@@ -4,6 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import Button from "../components/Button";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { DiGoogleDrive } from "react-icons/di";
 
 export default function Navbar() {
 	const [nav, setNav] = useState(false);
@@ -52,8 +53,8 @@ export default function Navbar() {
 				</div>
 
 				<div className="hidden md:flex gap-5 my-auto text-[#214842] font-semibold">
-					<Button content={"Contact"} className="px-4 py-2" />
-					<Button content={<AiOutlineInstagram size={30} />} className="px-2" />
+					<Button content={<DiGoogleDrive size={30} />} className="p-2" />
+					<Button content={<AiOutlineInstagram size={30} />} className="p-2" />
 				</div>
 
 				{/* Mobile Device */}
