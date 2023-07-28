@@ -53,8 +53,12 @@ export default function Navbar() {
 				</div>
 
 				<div className="hidden md:flex gap-5 my-auto text-[#214842] font-semibold">
-					<Button content={<DiGoogleDrive size={30} />} className="p-2" />
-					<Button content={<AiOutlineInstagram size={30} />} className="p-2" />
+					<a href="">
+						<Button content={<DiGoogleDrive size={30} />} className="p-2" />
+					</a>
+					<a href="https://instagram.com/phokade.id/" target={"_blank"}>
+						<Button content={<AiOutlineInstagram size={30} />} className="p-2" />
+					</a>
 				</div>
 
 				{/* Mobile Device */}
@@ -64,15 +68,15 @@ export default function Navbar() {
 
 				{nav && (
 					<ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-white text-black">
-						{menus.map((menu) => (
-							<li key={menu.id} className="px-4 cursor-pointer capitalize py-4 text-4xl hover:scale-105 duration-200">
+						{menus.map((menu, id) => (
+							<li key={id} className="px-4 cursor-pointer capitalize py-4 text-4xl hover:scale-105 duration-200">
 								<Link onClick={() => setNav(!nav)} to={menu.to} smooth duration={500}>
 									{menu.name}
 								</Link>
 							</li>
 						))}
 						<hr className="w-1/2 border-b-2 border-black mt-5 mb-10" />
-						<Link onClick={() => setNav(!nav)} to={"gallery"} smooth duration={500}>
+						<Link onClick={() => setNav(!nav)} to={"contact"} smooth duration={500}>
 							<Button content={"Contact"} className="px-4 py-3 text-4xl" />
 						</Link>
 					</ul>

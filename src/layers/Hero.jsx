@@ -1,4 +1,5 @@
 //import React from "react";
+import { Link } from "react-scroll";
 import Button from "../components/Button";
 import hero from "/hero.png";
 
@@ -13,7 +14,9 @@ export default function Hero() {
 					<p className="text-justify text-base">
 						Sebuah mesin pada era industri saat ini menjadi kebutuhan primer. Kami menyediakan jasa untuk merencanakan mesin agar mempermudah bisnis Anda. Dapatkan rancangan mesin yang bisnis anda butuhkan!
 					</p>
-					<Button content={"Produk Kami"} className="px-4 py-3" />
+					<Link activeClass="active" to={"pricing"} spy={true} smooth={true} duration={500}>
+						<Button content={"Produk Kami"} className="px-4 py-3" />
+					</Link>
 				</div>
 			</div>
 			<div name="hero" className="hidden w-full h-screen bg-gradient-to-r from-white from-50% to-[#214842] to-50% lg:flex gap-10 justify-between items-center px-12 font-poppins">
@@ -24,7 +27,9 @@ export default function Hero() {
 					<p className="text-justify text-base">
 						Sebuah mesin pada era industri saat ini menjadi kebutuhan primer. Kami menyediakan jasa untuk merencanakan mesin agar mempermudah bisnis Anda. Dapatkan rancangan mesin yang bisnis anda butuhkan!
 					</p>
-					<Button content={"Produk Kami"} className="px-4 py-3" />
+					<Link activeClass="active" to={"pricing"} spy={true} smooth={true} duration={500}>
+						<Button content={"Produk Kami"} className="px-4 py-3" />
+					</Link>
 				</div>
 				<div>
 					<img src={hero} width="1300px" />

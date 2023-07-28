@@ -15,11 +15,11 @@ export default function Footer() {
 			className: "p-[10px]",
 		},
 		{
-			href: "https://www.instagram.com",
+			href: "https://instagram.com/phokade.id/",
 			img: instagram,
 		},
 		{
-			href: "https://www.tokopedia.com",
+			href: "https://www.tokopedia.com/phokade-an",
 			img: tokopedia,
 		},
 	];
