@@ -15,7 +15,7 @@ export default function Pricing() {
 				},
 				{
 					id: 2,
-					name: "Feature 1",
+					name: "Feature 2",
 				},
 			],
 		},
@@ -29,6 +29,10 @@ export default function Pricing() {
 					id: 1,
 					name: "Feature 1",
 				},
+				{
+					id: 2,
+					name: "Feature 2",
+				},
 			],
 		},
 
@@ -41,17 +45,21 @@ export default function Pricing() {
 					id: 1,
 					name: "Feature 1",
 				},
+				{
+					id: 2,
+					name: "Feature 2",
+				},
 			],
 		},
 	];
 
 	return (
 		<>
-			<div name="pricing" className="w-full h-screen flex justify-center items-center font-roboto text-center">
-				<div className="flex flex-col leading-3">
+			<div name="pricing" className="w-full md:mt-24 md:mb-8 mb-32 flex flex-col md:justify-center items-center font-roboto text-center">
+				<div className="flex flex-col justify-center">
 					<h1 className="font-medium text-3xl md:text-4xl">Paket Jasa Layanan</h1>
 					<p className="mt-10 px-5 md:text-xl">Paket jasa untuk memudahkan proses bisnis Anda.</p>
-					<div className="flex gap-20 mt-16 ">
+					<div className="flex md:flex-row flex-col gap-4 md:gap-20 mt-8 md:mt-16 m-auto">
 						{pricings.map((pricing, id) => (
 							<a href={`https://wa.me/6281358609474?text=Halo%0A%0ASaya ingin memesan jasa paket ${pricing.title}%0A%0ATerima kasih`} target={"_blank"}>
 								<PricingCard key={id} image={pricing.image} title={pricing.title} description={pricing.description} features={pricing.benefits} />
