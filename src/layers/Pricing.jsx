@@ -61,8 +61,8 @@ export default function Pricing() {
 					<p className="mt-10 px-5 md:text-xl">Paket jasa untuk memudahkan proses bisnis Anda.</p>
 					<div className="flex md:flex-row flex-col gap-4 md:gap-20 mt-8 md:mt-16 m-auto">
 						{pricings.map((pricing, id) => (
-							<a href={`https://wa.me/6281358609474?text=Halo%0A%0ASaya ingin memesan jasa paket ${pricing.title}%0A%0ATerima kasih`} target={"_blank"}>
-								<PricingCard key={id} image={pricing.image} title={pricing.title} description={pricing.description} features={pricing.benefits} />
+							<a key={id} href={`https://wa.me/6281358609474?text=Halo%0A%0ASaya ingin memesan jasa paket ${pricing.title}%0A%0ATerima kasih`} target={"_blank"}>
+								<PricingCard image={pricing.image} title={pricing.title} description={pricing.description} features={pricing.benefits} />
 							</a>
 						))}
 					</div>
