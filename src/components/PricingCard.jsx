@@ -19,7 +19,11 @@ function PricingCard({ image, title, description, features }) {
 						</li>
 					))}
 				</ul>
-				<a href="#nothing" className="w-full py-2 md:px-10 px-8 rounded-lg hover:bg-yellow-500 duration-200 mt-16 border border-black hover:border-slate-200 hover:text-[#214842]">
+				<a
+					href={`https://wa.me/6281358609474?text=Halo%0A%0ASaya ingin memesan jasa paket ${title}%0A%0ATerima kasih`}
+					target={"_blank"}
+					className="w-full py-2 md:px-10 px-8 rounded-lg hover:bg-yellow-500 duration-200 mt-16 border border-black hover:border-slate-200 hover:text-[#214842]"
+				>
 					Beli Paket
 				</a>
 			</div>
