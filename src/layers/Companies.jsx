@@ -24,12 +24,12 @@ export default function Companies() {
 	return (
 		<>
 			<div className="w-full h-[485px] flex justify-center items-center font-roboto">
-				<div className="flex flex-col font-roboto text-center gap-16">
-					<h1 className="text-4xl font-medium">Telah Dipercaya Oleh</h1>
-					<p className="text-2xl">
-						Partner yang telah bekerja sama dengan Kami. Pastikan perusahaan <br /> Anda adalah yang selanjutnya!
+				<div className="flex flex-col font-roboto text-center gap-8 md:gap-16 px-5">
+					<h1 className="text-3xl md:text-4xl font-medium">Telah Dipercaya Oleh</h1>
+					<p className="md:text-2xl leading-none text-sm">
+						Partner yang telah bekerja sama dengan Kami. Pastikan perusahaan <span className="md:block">Anda adalah yang selanjutnya!</span>
 					</p>
-					<div className="flex justify-center gap-16">
+					<div className="grid grid-cols-2 md:flex justify-center place-items-center gap-5 md:gap-16 md:flex-wrap">
 						{companyCards.map((companyCard, id) => (
 							<CompanyCard image={companyCard.image} key={id} />
 						))}

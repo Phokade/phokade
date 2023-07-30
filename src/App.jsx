@@ -7,6 +7,7 @@ import Pricing from "./layers/Pricing";
 import Gallery from "./layers/Gallery";
 import Map from "./layers/Map";
 import Footer from "./layers/Footer";
+import TechStack from "./layers/TechStack";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<Companies />
 			<About />
 			<Gallery />
+			<TechStack />
 			<Pricing />
 			<Contact />
 			<Map />
