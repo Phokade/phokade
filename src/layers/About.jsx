@@ -7,10 +7,10 @@ function About() {
 	return (
 		<>
 			<div name="about">
-				<div className="w-full h-screen justify-evenly items-center flex font-roboto">
-					<img src={about1} />
+				<div className="w-full h-screen justify-evenly items-center flex flex-col lg:flex-row font-roboto">
+					<img src={about1} className="w-3/4 md:w-1/3" />
 
-					<div className="flex flex-col gap-10 w-[503px]">
+					<div className="flex flex-col gap-10 px-5 lg:w-[503px]">
 						<h1 className="font-medium text-4xl">Pengetahuan dan Keahlian</h1>
 						<p>
 							Kami menawarkan tim ahli yang memiliki pengetahuan yang mendalam dan keahlian di bidang perencanaan arsitektur. Kami memiliki pengalaman yang luas dalam mengelola berbagai jenis proyek arsitektur, mulai perencanaan desain
@@ -19,8 +19,8 @@ function About() {
 					</div>
 				</div>
 
-				<div className="w-full justify-evenly items-center flex font-roboto">
-					<div className="flex flex-col gap-10 w-[503px]">
+				<div className="w-full justify-evenly items-center flex flex-col-reverse lg:flex-row font-roboto">
+					<div className="flex flex-col gap-10 px-5 lg:w-[503px]">
 						<h1 className="font-medium text-4xl">Solusi yang Disesuaikan</h1>
 						<p>
 							Kami memahami bahwa setiap proyek arsitektur memiliki kebutuhan yang unik. Oleh karena itu, kami menawarkan solusi yang disesuaikan dengan kebutuhan dan tujuan Anda. Kami akan bekerja sama dengan Anda untuk merancang rencana
@@ -28,12 +28,12 @@ function About() {
 							baik.
 						</p>
 					</div>
-					<img src={about2} />
+					<img src={about2} className="w-3/4 md:w-1/3 mb-10 lg:mb-0" />
 				</div>
 
-				<div className="w-full justify-evenly items-center flex font-roboto mt-52">
-					<img src={about3} />
-					<div className="flex flex-col gap-10 w-[503px]">
+				<div className="w-full justify-evenly items-center flex flex-col lg:flex-row font-roboto md:mt-44">
+					<img src={about3} className="w-3/4 md:w-1/3 my-10" />
+					<div className="flex flex-col gap-10 px-5 lg:w-[503px]">
 						<h1 className="font-medium text-4xl">Pemakaian Teknologi Terkini</h1>
 						<p>
 							Kami terus mengikuti perkembangan teknologi terkini dalam industri arsitektur. Kami menggunakan peralatan dan teknik modern untuk meningkatkan efisiensi dan produktivitas dalam setiap proyek. Dari penggunaan perangkat lunak

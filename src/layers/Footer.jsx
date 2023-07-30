@@ -15,11 +15,11 @@ export default function Footer() {
 			className: "p-[10px]",
 		},
 		{
-			href: "https://www.instagram.com",
+			href: "https://instagram.com/phokade.id/",
 			img: instagram,
 		},
 		{
-			href: "https://www.tokopedia.com",
+			href: "https://www.tokopedia.com/phokade-an",
 			img: tokopedia,
 		},
 	];
@@ -27,7 +27,7 @@ export default function Footer() {
 	return (
 		<>
 			<div className="w-full mt-24 justify-center items-center font-roboto ">
-				<div className="flex justify-center items-center gap-16 font-medium">
+				<div className="flex justify-center items-center md:gap-16 gap-8 font-medium flex-col md:flex-row">
 					<Link activeClass="active" to="hero" className=" cursor-pointer" spy={true} smooth={true} duration={500}>
 						<img src={logo} alt="" className="mix-blend-multiply" />
 					</Link>
@@ -47,7 +47,7 @@ export default function Footer() {
 						<IconOutline key={id} href={icon.href} icon={icon.img} className={icon.className} iconClassName={icon.iconClassName} />
 					))}
 				</div>
-				<div className="flex justify-center items-center font-roboto mt-12 mb-8 gap-8">
+				<div className="flex md:flex-row flex-col-reverse justify-center items-center font-roboto mt-12 mb-12 gap-8">
 					<p>Copyrights © {currentYear} Phokade</p>
 					<p>Privacy — Terms</p>
 				</div>
