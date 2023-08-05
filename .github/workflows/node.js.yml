@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -28,8 +28,6 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    - name: Directory Permissions
-      run: chmod -R 777 storage bootstrap/cache
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
