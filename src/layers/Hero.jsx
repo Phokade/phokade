@@ -9,10 +9,10 @@ export default function Hero() {
 			<div className="lg:hidden w-full h-screen flex justify-between items-center px-12 font-poppins">
 				<div className="content-left flex flex-col gap-10">
 					<h1 className="text-4xl text-[#214842] font-bold leading-[50px]">
-						Phokade Arsitektur Nusantara <br /> Perencanaan Penggilingan Padi Modern
+						Phokade Arsitektur Nusantara <br /> Penggilingan Padi Modern
 					</h1>
 					<p className="text-justify text-base">
-						Sebuah mesin pada era industri saat ini menjadi kebutuhan primer. Kami menyediakan jasa untuk merencanakan mesin agar mempermudah bisnis Anda. Dapatkan rancangan mesin yang bisnis anda butuhkan!
+						Jasa Perencanaan Industri Penggilingan Padi. 
 					</p>
 					<Link activeClass="active" to={"pricing"} spy={true} smooth={true} duration={500}>
 						<Button content={"Produk Kami"} className="px-4 py-3" />
