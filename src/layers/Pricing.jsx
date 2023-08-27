@@ -6,16 +6,16 @@ export default function Pricing() {
 	const pricings = [
 		{
 			image: logo,
-			title: "basic",
-			description: "Paket untuk Anda yang baru memulai bisnis.",
+			title: "Instalasi Dryer dan Tungku",
+			description: "Perencanaan.",
 			benefits: [
 				{
 					id: 1,
-					name: "Feature 1",
+					name: "Gambar Kerja",
 				},
 				{
 					id: 2,
-					name: "Feature 2",
+					name: "Rencana Anggaran Biaya (RAB)",
 				},
 			],
 		},
