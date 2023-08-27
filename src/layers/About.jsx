@@ -14,7 +14,7 @@ function About() {
 						<h1 className="font-medium text-4xl">Pengetahuan dan Keahlian</h1>
 						<p>
 							Kami menawarkan tim ahli yang memiliki pengetahuan yang mendalam dan keahlian di bidang perencanaan arsitektur. Kami memiliki pengalaman yang luas dalam mengelola berbagai jenis proyek arsitektur, mulai perencanaan desain
-							bangunan hingga perencanaan arsitektur di bidang agrikultur . Keunggulan ini akan memberi Anda kepercayaan diri bahwa Anda akan menerima layanan profesional yang berkualitas tinggi dari kami.
+							bangunan hingga perencanaan Instalasi Dryer Vertikal/ Horisontal dan Tungku, Instalasi Penggilingan Padi Modern, Instalasi Kibi dan Colour Sorter, Instalasi Hammermill . Keunggulan ini akan memberi Anda kepercayaan diri bahwa Anda akan menerima layanan profesional yang berkualitas tinggi dari kami.
 						</p>
 					</div>
 				</div>
