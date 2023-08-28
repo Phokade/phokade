@@ -14,7 +14,7 @@ function About() {
 						<h1 className="font-medium text-4xl">Instalasi Dryer dan Tungku</h1>
 						<p>
 							Perencanaan Dryer dan Tungku adalah Instalasi Tahap Pengeringan Gabah Kering Sawah sampai kering dengan kadar air yang disesuaikan randoman Gabah
-							,Perencanaan Instalasi dengan kelebihan 
+							,Perencanaan Instalasi dengan kelebihan 99,9% Tanpa abu polusi dengan desaign filter back dan ruang abu sesuai kapasitas
 						</p>
 					</div>
 				</div>
