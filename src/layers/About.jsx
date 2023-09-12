@@ -25,8 +25,11 @@ function About() {
 					<div className="flex flex-col gap-10 px-5 lg:w-[503px]">
 						<h1 className="font-medium text-4xl">Instalasi Sellep Padi/Pecah Kulit</h1>
 						<p>
-							Instalasi Selep Padi/Pecah Kulit adalah Instalasi utama dalam proses Gabah menjadi beras dengan cara kerja mengupas beras dari kulitnya. Kami memahami bahwa setiap proyek arsitektur memiliki kebutuhan yang unik. Oleh karena itu, kami menawarkan solusi yang disesuaikan dengan kebutuhan dan tujuan Anda. Kami akan bekerja sama dengan Anda untuk merancang rencana
-							yang tepat, mengidentifikasi tantangan yang mungkin muncul, dan memberikan solusi yang efektif dan efisien. Dengan pendekatan yang personal dan solusi yang disesuaikan, Anda dapat yakin bahwa proyek Anda akan diurus dengan
+							Instalasi Selep Padi/Pecah Kulit adalah Instalasi utama dalam proses Gabah menjadi beras dengan cara kerja mengupas beras dari kulitnya.
+							Kami memahami bahwa setiap proyek arsitektur memiliki kebutuhan yang unik. Oleh karena itu, kami menawarkan solusi yang disesuaikan dengan kebutuhan dan tujuan Anda. 
+							Kami akan bekerja sama dengan Anda untuk merancang rencana
+							yang tepat, mengidentifikasi tantangan yang mungkin muncul, dan memberikan solusi yang efektif dan efisien. 
+							Dengan pendekatan yang personal dan solusi yang disesuaikan, Anda dapat yakin bahwa proyek Anda akan diurus dengan
 							baik.
 						</p>
 					</div>
