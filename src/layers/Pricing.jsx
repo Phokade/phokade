@@ -6,48 +6,48 @@ export default function Pricing() {
 	const pricings = [
 		{
 			image: logo,
-			title: "Instalasi Dryer dan Tungku",
+			title: "INSTALASI DRYER DAN TUNGKU",
 			description: "Perencanaan.",
 			benefits: [
 				{
 					id: 1,
-					name: "Gambar Kerja",
+					name: "GAMBAR KERJA",
 				},
 				{
 					id: 2,
-					name: "Rencana Anggaran Biaya (RAB)",
+					name: "RENCANA ANGGARAN BIAYA (RAB)",
 				},
 			],
 		},
 
 		{
 			image: logo,
-			title: "premium",
+			title: "INSTALASI KIBI DAN COLOUR SORTER",
 			description: "Paket untuk Anda yang baru memulai bisnis.",
 			benefits: [
 				{
 					id: 1,
-					name: "Feature 1",
+					name: "GAMBAR KERJA",
 				},
 				{
 					id: 2,
-					name: "Feature 2",
+					name: "RENCANA ANGGARAN BIAYA",
 				},
 			],
 		},
 
 		{
 			image: logo,
-			title: "pertalite",
+			title: "INSTALASI SELEP PECAH KULIT",
 			description: "Paket untuk Anda yang baru memulai bisnis.",
 			benefits: [
 				{
 					id: 1,
-					name: "Feature 1",
+					name: "GAMBAR KERJA ",
 				},
 				{
 					id: 2,
-					name: "Feature 2",
+					name: "RENCANA ANGGRAN BIAYA",
 				},
 			],
 		},
