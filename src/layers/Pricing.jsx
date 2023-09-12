@@ -43,7 +43,7 @@ export default function Pricing() {
 			benefits: [
 				{
 					id: 1,
-					name: "GAMBAR KERJA ",
+					name: "GAMBAR KERJA",
 				},
 				{
 					id: 2,
