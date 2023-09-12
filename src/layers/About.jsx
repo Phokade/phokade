@@ -41,7 +41,9 @@ function About() {
 					<div className="flex flex-col gap-10 px-5 lg:w-[503px]">
 						<h1 className="font-medium text-4xl">Instalasi Kibi dan Colour Sorter</h1>
 						<p>
-							Kami terus mengikuti perkembangan teknologi terkini dalam industri arsitektur. Kami menggunakan peralatan dan teknik modern untuk meningkatkan efisiensi dan produktivitas dalam setiap proyek. Dari penggunaan perangkat lunak
+							Instalasi Kibi adalah pendukung instalasi dalam instalasi selep dengan cara kerja untuk memisahkan beras dari kulit arinya atau dedak sehingga akan dihasilkan beras yang lebih bersih dan lebih putih, 
+							dengan tujuan untuk meningkatkan nilai jual beras yang digiling.Kami terus mengikuti perkembangan teknologi terkini dalam industri arsitektur. 
+							Kami menggunakan peralatan dan teknik modern untuk meningkatkan efisiensi dan produktivitas dalam setiap proyek. Dari penggunaan perangkat lunak
 							yang yang canggih hingga perencanaan instalasi, kami memastikan bahwa Anda mendapatkan manfaat dari kemajuan teknologi terbaru untuk meningkatkan kualitas dari proyek arsitektur Anda. Dengan pendekatan yang inovatif dan
 							teknologi terkini, kami memberikan keunggulan kompetitif yang akan membantu Anda mencapai keberhasilan dalam proyek arsitektur Anda.
 						</p>
