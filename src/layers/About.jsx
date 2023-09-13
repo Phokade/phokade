@@ -28,9 +28,6 @@ function About() {
 							Instalasi Selep Padi/Pecah Kulit adalah Instalasi utama dalam proses Gabah menjadi beras dengan cara kerja mengupas beras dari kulitnya.
 							Kami memahami bahwa setiap proyek arsitektur memiliki kebutuhan yang unik. Oleh karena itu, kami menawarkan solusi yang disesuaikan dengan kebutuhan dan tujuan Anda. 
 							Kami akan bekerja sama dengan Anda untuk merancang rencana
-							yang tepat, mengidentifikasi tantangan yang mungkin muncul, dan memberikan solusi yang efektif dan efisien. 
-							Dengan pendekatan yang personal dan solusi yang disesuaikan, Anda dapat yakin bahwa proyek Anda akan diurus dengan
-							baik.
 						</p>
 					</div>
 					<img src={about2} className="w-3/4 md:w-1/3 mb-10 lg:mb-0" />
@@ -43,7 +40,7 @@ function About() {
 						<p>
 							Instalasi Kibi dan Colour Sorter adalah pendukung instalasi dalam instalasi selep dengan cara kerja untuk memisahkan beras dari kulit arinya atau dedak 
 							sehingga akan dihasilkan beras yang lebih bersih dan lebih putih, 
-							dengan tujuan untuk meningkatkan nilai jual beras yang digiling.Kami terus mengikuti perkembangan teknologi terkini dalam industri arsitektur. 
+							dengan tujuan untuk meningkatkan nilai jual beras yang digiling. 
 							
 						</p>
 					</div>
