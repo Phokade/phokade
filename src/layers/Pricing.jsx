@@ -21,6 +21,23 @@ export default function Pricing() {
 		},
 
 		{
+					{
+			image: logo,
+			title: "PERENCANAAN SITEPLAN DAN GUDANG",
+			description: "Perencanaan Phokadean",
+			benefits: [
+				{
+					id: 1,
+					name: "GAMBAR KERJA",
+				},
+				{
+					id: 2,
+					name: "RENCANA ANGGARAN BIAYA (RAB)",
+				},
+			],
+		},
+
+		{
 			{
 			image: logo,
 			title: "INSTALASI HAMMERMILL",
