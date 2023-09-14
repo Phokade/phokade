@@ -18,7 +18,6 @@ function About() {
 							1. Desaign tata ruang mesin yang fleksibel dalam mempermudah perawatan, operasional in/out bahan
 							2. Mengurangi 99,9% resiko Polusi, debu, abu arang
 							3. mengembangkan daya maksimal gabah dryer
-
 						</p>
 					</div>
 				</div>
@@ -45,9 +44,10 @@ function About() {
 							Instalasi Kibi dan Colour Sorter adalah pendukung instalasi dalam instalasi selep dengan cara kerja untuk memisahkan beras dari kulit arinya atau dedak 
 							sehingga akan dihasilkan beras yang lebih bersih dan lebih putih, dengan tujuan untuk meningkatkan nilai jual beras yang digiling.
 							Kelebihan Perencanaan Phokadean :
-							1. Desain 
-							
-						</p>
+							1. Desain Tata ruang Mesin finishing beras medium dan premium yang berkualitas
+							2. Mengurangi resiko patah beras, beras berabu, 
+							3. Dapat Mengontrol kualitas dan quantitas hasil beras
+						</p> 
 					</div>
 				</div>
 			</div>
