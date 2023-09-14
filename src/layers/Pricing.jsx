@@ -7,7 +7,24 @@ export default function Pricing() {
 		{
 			image: logo,
 			title: "INSTALASI DRYER DAN TUNGKU",
-			description: "Perencanaan.",
+			description: "Perencanaan Phokadean",
+			benefits: [
+				{
+					id: 1,
+					name: "GAMBAR KERJA",
+				},
+				{
+					id: 2,
+					name: "RENCANA ANGGARAN BIAYA (RAB)",
+				},
+			],
+		},
+
+		{
+			{
+			image: logo,
+			title: "INSTALASI HAMMERMILL",
+			description: "Perencanaan Phokadean",
 			benefits: [
 				{
 					id: 1,
@@ -23,7 +40,7 @@ export default function Pricing() {
 		{
 			image: logo,
 			title: "INSTALASI KIBI DAN COLOUR SORTER",
-			description: "Paket untuk Anda yang baru memulai bisnis.",
+			description: "Perencanaan Phokadean",
 			benefits: [
 				{
 					id: 1,
@@ -39,7 +56,7 @@ export default function Pricing() {
 		{
 			image: logo,
 			title: "INSTALASI SELEP PECAH KULIT",
-			description: "Paket untuk Anda yang baru memulai bisnis.",
+			description: "Perencanaan Phokadean",
 			benefits: [
 				{
 					id: 1,
