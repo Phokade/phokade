@@ -15,7 +15,7 @@ export default function Pricing() {
 				},
 				{
 					id: 2,
-					name: "RENCANA ANGGARAN BIAYA (RAB)",
+					name: "RENCANA ANGGARAN BIAYA",
 				},
 			],
 		},
