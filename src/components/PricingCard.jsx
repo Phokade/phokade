@@ -13,7 +13,7 @@ function PricingCard({ image, title, description, features }) {
 				<ul className="text-gray-600 mt-3">
 					{/* Mapping array of feature */}
 					{features.map((feature) => (
-						<li key={feature.id} className="flex gap-2">
+						<li key={feature.id} className="flex gap-2 text-left">
 							<BiSolidCircle size={5} className="my-auto" />
 							{feature.name}
 						</li>
