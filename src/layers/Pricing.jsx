@@ -21,7 +21,6 @@ export default function Pricing() {
 		},
 
 		{
-					{
 			image: logo,
 			title: "PERENCANAAN SITEPLAN DAN GUDANG",
 			description: "Perencanaan Phokadean",
@@ -38,7 +37,6 @@ export default function Pricing() {
 		},
 
 		{
-			{
 			image: logo,
 			title: "INSTALASI HAMMERMILL",
 			description: "Perencanaan Phokadean",
