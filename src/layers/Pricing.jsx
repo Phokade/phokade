@@ -91,7 +91,7 @@ export default function Pricing() {
 				<div className="flex flex-col justify-center">
 					<h1 className="font-medium text-3xl md:text-4xl">Paket Jasa Layanan</h1>
 					<p className="mt-10 px-5 md:text-xl">Jasa Perencanaan Pabrik Penggilingan Padi .</p>
-					<div className="flex md:flex-row flex-col gap-4 md:gap-20 mt-8 md:mt-16 m-auto flex-wrap">
+					<div className="flex md:flex-row flex-col gap-4 md:gap-20 mt-8 md:mt-16 m-auto flex-wrap justify-center">
 						{pricings.map((pricing, id) => (
 							<PricingCard key={id} image={pricing.image} title={pricing.title} description={pricing.description} features={pricing.benefits} />
 						))}
