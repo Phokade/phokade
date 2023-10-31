@@ -1,7 +1,7 @@
 //import React from "react";
 import { Link } from "react-scroll";
 import Button from "../components/Button";
-import hero from "/hero.png";
+import hero from "/BACKGROUND.jpg";
 
 export default function Hero() {
 	return (
