@@ -10,7 +10,7 @@ export default function Companies() {
 			</div>
 			<div className="grid grid-cols-12 md:gap-4 gap-2 md:mx-12 mx-2 mb-12">
 				<div className="col-span-4 row-span-1">
-					<img src={1G} className="md:mb-4 mb-2 rounded-lg" />
+					<img src={imgGallery} className="md:mb-4 mb-2 rounded-lg" />
 					<img src={imgGallery} className="rounded-lg" />
 				</div>
 				<div className="col-span-5 row-span-1">
