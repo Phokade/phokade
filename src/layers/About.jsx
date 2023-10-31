@@ -67,7 +67,7 @@ function About() {
 						<h1 className="font-medium text-4xl">Instalasi Sellep Padi/Pecah Kulit</h1>
 						
 					</div>
-					<img src={about2} className="w-3/4 md:w-1/3 mb-10 lg:mb-0" />
+					<img src={about5} className="w-3/4 md:w-1/3 mb-10 lg:mb-0" />
 				</div>
 			</div>
 		</>
