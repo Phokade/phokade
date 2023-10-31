@@ -64,7 +64,7 @@ function About() {
 
 				<div className="w-full justify-evenly items-center flex flex-col-reverse lg:flex-row font-roboto">
 					<div className="flex flex-col gap-10 px-5 lg:w-[503px]">
-						<h1 className="font-medium text-4xl">Instalasi Sellep Padi/Pecah Kulit</h1>
+						<h1 className="font-medium text-4xl">Konstruksi Struktur Baja</h1>
 						
 					</div>
 					<img src={about5} className="w-3/4 md:w-1/3 mb-10 lg:mb-0" />
