@@ -2,11 +2,22 @@
 import about1 from "/DRYER A.jpg";
 import about2 from "/SELLEP PREMIUM.jpg";
 import about3 from "/KIBI DAN CS.jpg";
-
+import about4 from "/GALERYA.jpg";
+import about5 from "/HAMMERMILL.jpg";
 function About() {
 	return (
 		<>
 			<div name="about">
+				<div className="w-full justify-evenly items-center flex flex-col-reverse lg:flex-row font-roboto">
+					<div className="flex flex-col gap-10 px-5 lg:w-[503px]">
+						<h1 className="font-medium text-4xl">Instalasi Cleaner</h1>
+						<p>
+							
+						</p>
+					</div>
+					<img src={about4} className="w-3/4 md:w-1/3 mb-10 lg:mb-0" />
+				</div>
+				
 				<div className="w-full h-screen justify-evenly items-center flex flex-col lg:flex-row font-roboto">
 					<img src={about1} className="w-3/4 md:w-1/3" />
 
@@ -49,6 +60,14 @@ function About() {
 							3. Dapat Mengontrol kualitas dan quantitas hasil beras
 						</p> 
 					</div>
+				</div>
+
+				<div className="w-full justify-evenly items-center flex flex-col-reverse lg:flex-row font-roboto">
+					<div className="flex flex-col gap-10 px-5 lg:w-[503px]">
+						<h1 className="font-medium text-4xl">Instalasi Sellep Padi/Pecah Kulit</h1>
+						
+					</div>
+					<img src={about2} className="w-3/4 md:w-1/3 mb-10 lg:mb-0" />
 				</div>
 			</div>
 		</>
