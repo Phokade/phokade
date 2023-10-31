@@ -1,7 +1,7 @@
 //import React from "react";
-import about1 from "/about-1.png";
-import about2 from "/about-2.png";
-import about3 from "/about-3.png";
+import about1 from "/DRYER A.jpg";
+import about2 from "/SELLEP PREMIUM.jpg";
+import about3 from "/KIBI DAN CS.jpg";
 
 function About() {
 	return (
